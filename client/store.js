@@ -23,4 +23,12 @@ const store = createStore(
 
 export const history = syncHistoryWithStore(browserHistory, store)
 
+// hot reloading of reducers
+if(module.hot)  {
+  module.hot.accept('./reducers/',() => {
+    const nextRootReducer = require('./reducers/index').default // cant use import inside functions
+    store.replaceReducer(nextRootReducer)
+  })
+}
+
 export default store
