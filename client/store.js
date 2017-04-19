@@ -15,9 +15,14 @@ const defaultState = {
   comments
 }
 
+const enhancers = compose(
+  window.devToolsExtension ? window.devToolsExtension() : f => f
+)
+
 const store = createStore(
   rootReducer,
-  defaultState
+  defaultState,
+  enhancers
   // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   )
 
