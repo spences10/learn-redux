@@ -165,14 +165,14 @@ const posts = [{
     'likes': 1,
     'id': '327470453884559040',
     'display_src': 'https://scontent.cdninstagram.com/t51.2885-15/e15/11246515_426479254200065_1392939312_n.jpg'
-  },
-  {
-    'code': 'SKogwUOZ78',
-    'caption': 'Tiny planet',
-    'likes': 3,
-    'id': '17850719578012687',
-    'display_src': 'https://scontent.cdninstagram.com/t51.2885-15/e15/11243949_1660919377460983_1355979759_n.jpg'
-  }
+  }//,
+  // {
+  //   'code': 'SKogwUOZ78',
+  //   'caption': 'Tiny planet',
+  //   'likes': 3,
+  //   'id': '17850719578012687',
+  //   'display_src': 'https://scontent.cdninstagram.com/t51.2885-15/e15/11243949_1660919377460983_1355979759_n.jpg'
+  // }
 ]
 
 
