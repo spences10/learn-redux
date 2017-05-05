@@ -1,5 +1,7 @@
 # Learn Redux
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/spences10/learn-redux.svg)](https://greenkeeper.io/)
+
 My follow along with Wes:
 
 https://learnredux.com/
